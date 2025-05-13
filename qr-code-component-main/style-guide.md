@@ -21,7 +21,7 @@ The designs were created to the following widths:
 
 ### Body Copy
 
-- Font size (paragraph): 15px
+- Tamaño de fuente (párrafo): 15px
 
 ### Font
 
