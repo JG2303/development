@@ -12,44 +12,44 @@ Thanks for checking out this front-end coding challenge.
 
 ## The challenge
 
-Your challenge is to build out this QR code component and get it looking as close to the design as possible.
+Su desafío es desarrollar este componente de código QR y hacer que se vea lo más cerca posible del diseño.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+Puede usar cualquier herramienta que le guste para ayudarlo a completar el desafío.Entonces, si tienes algo que te gustaría practicar, siéntete libre de intentarlo.
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+¿Quieres un poco de apoyo en el desafío?[Únase a nuestra comunidad] (https://www.frontentmentor.io/community) y haga preguntas en el canal **#ayuda **.
 
 ## Where to find everything
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+Su tarea es desarrollar el proyecto a los diseños dentro de la carpeta `/Design`.Encontrará tanto un móvil como una versión de escritorio del diseño.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+Los diseños están en formato estático JPG.El uso de JPG significará que necesitará usar su mejor juicio para estilos como 'Font-Size`,' Padding` y 'Margin`.
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+Si desea que los archivos de diseño (proporcionamos versiones de bocetos y figma) para inspeccionar el diseño con más detalle, puede [suscribirse como miembro profesional] (https://www.frontentmentor.io/pro).
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+Encontrará todos los activos requeridos en la carpeta `/Images`.Los activos ya están optimizados.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+También hay un archivo `style-guide.md` que contiene la información que necesitará, como la paleta de colores y las fuentes.
 
 ## Building your project
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+Siéntase libre de usar cualquier flujo de trabajo con el que se sienta cómodo.A continuación se muestra un proceso sugerido, pero no sienta que necesita seguir estos pasos:
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+1. Inicialice su proyecto como repositorio público en [Github] (https://github.com/).Crear un repositorio hará que sea más fácil compartir su código con la comunidad si necesita ayuda.Si no está seguro de cómo hacer esto, [tenga una lectura de este recurso de prueba de prueba] (https://try.github.io/).
+2. Configure su repositorio para publicar su código en una dirección web.Esto también será útil si necesita ayuda durante un desafío, ya que puede compartir la URL para su proyecto con su URL de repositorio.Hay varias formas de hacer esto, y proporcionamos algunas recomendaciones a continuación.
+3. Mire a través de los diseños para comenzar a planificar cómo abordará el proyecto.Este paso es crucial para ayudarlo a pensar con anticipación para las clases de CSS para crear estilos reutilizables.
+4. Antes de agregar cualquier estilos, estructura tu contenido con HTML.Escribir su HTML primero puede ayudarlo a centrar su atención en crear contenido bien estructurado.
+5. Escriba los estilos base para su proyecto, incluidos los estilos generales de contenido, como 'Font-Family` y' Font-Size`.
+6. Comience a agregar estilos a la parte superior de la página y trabaje.Solo pase a la siguiente sección una vez que esté contento de haber completado el área en la que está trabajando.
 
 ## Deploying your project
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+Como se mencionó anteriormente, hay muchas formas de alojar su proyecto de forma gratuita.Nuestros anfitriones recomendados son:
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+- [Páginas de Github] (https://pages.github.com/)
+- [VERCEL] (https://vercel.com/)
+- [netlify] (https://www.netlify.com/)
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+Puede alojar su sitio utilizando una de estas soluciones o cualquiera de nuestros otros proveedores de confianza.[Lea más sobre nuestros anfitriones recomendados y confiables] (https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
 
 ## Create a custom `README.md`
 
@@ -61,9 +61,9 @@ Once you've added your information to the template, delete this file and rename 
 
 ## Submitting your solution
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+Envíe su solución en la plataforma para que el resto de la comunidad lo vea.Siga nuestra ["Guía completa para enviar soluciones"] (https://medium.com/frontend-mentor/a-complete-guide-to-sommitting-solution-on-frontend-mentor-ac6384162248) para obtener consejos sobre cómo hacerlo.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+Recuerde, si está buscando comentarios sobre su solución, asegúrese de hacer preguntas al enviarla.Cuanto más específico y detallado sea con sus preguntas, mayores serán las posibilidades de recibir comentarios valiosos de la comunidad.
 
 ## Sharing your solution
 
