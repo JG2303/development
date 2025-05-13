@@ -29,22 +29,20 @@ body{
     height: 100vh;
     width: 100%;
     margin: auto;
-    
-    
 }
 
 main{    
     background: var(--color-principal);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     border-radius: 2rem;
     padding: 1rem;
-    gap:1rem;
-    width: 90%;
-    height: 80%;    
+    gap:1rem;      
+    max-width: 350px;
+    max-height: 500px;
 }
 main img{
     width: 300px;
@@ -60,16 +58,8 @@ main p{
     color: var(--color-fondo);
     font-weight: var(--weight-400);
     font-size: 1rem;
-    padding: 0 0.5rem 1.5rem;
+    padding: 0.8rem 0 1rem;
 }
-
-@media(min-width:1200px){
-    main{
-        width: 300px;
-        height: 450px%;
-    }
-    main img{
-        width: 200px;
-        height: 200px;
-    }
+.contenido{
+    padding: 1.2rem;
 }
