@@ -1,79 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <title>Frontend Mentor | Bento grid</title>
-  <link rel="stylesheet" href="css/estilos.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger</title>
+    <link rel="stylesheet" href="css/practica1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body >
-  <div class="contenedor-ppal centrar ">
-    <!--primera columna principal-->
-    <div class="col1 margen centrar ">
-      <div class="siete margen">
-        <h3>Create and schedule content <span>quicker.</span></h3>
-        <img src="assets/images/illustration-create-post.webp" alt="">
-      </div>
-      <div class="ocho margen">
-        <h3>Write your content using AI.</h3>
-        <img src="assets/images/illustration-ai-content.webp" alt="">
-      </div>
-    </div>
-    <!--segunda columna principal-->
-    <div class="col2 margen">
-      <!--primera fila-->
-      <div class="fila-interna-1 centrar">
-        <!--columna 1-->
-        <div class="col1-interna-fi-1 ">
-          <div class="uno margen centrar">
-            <h1>Social Media <span class="diezx">10x</span> <span class="cursivo">Faster</span><br> with AI </h1>
-            <img src="assets/images/illustration-five-stars.webp" alt="Estrellas">
-            <p>Over 4,000 5-star reviews</p>
-          </div>
-          <div class="social-media-2 centrar">
-            <div class="dos margen">
-              <img src="assets/images/illustration-multiple-platforms.webp" alt="Redes">
-              <h3>Manage multiple accounts and plataforms.</h3>
-            </div>
-            <div class="tres margen ">
-                  <h3>Maintain a consistent posting schedule.</h3> 
-                  <img src="assets/images/illustration-consistent-schedule.webp" alt=""> 
-            </div>
-          </div>
-        </div>
-        <!--segunda columna-->
-        <div class="centrar cuatro margen ">
-          <h3>Schedule to social media.</h3>
-          <img src="assets/images/illustration-schedule-posts.webp" alt="">
-          <p>Optimize post timings to publish content at the perfect time for your audience.</p>
-        </div>
-      </div>
-      <!--segunda fila-->
-      <div class="fila-interna-2  centrar">
-        <div class="seis margen">
-          <span class="porcentaje">>56%</span>
-          <p>faster audience growth</p>
-          <img src="assets/images/illustration-audience-growth.webp" alt="">
-        </div>
-        <div class="cinco centrar margen">
-          <img src="assets/images/illustration-grow-followers.webp" alt="">
-          <h3>Grouw  followers with non-stop content.</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+<body>
+    <header>
+        <!--logo-->
+        <a href=""><span class="logo">JG</span></a>
+        <button id="hamburger-btn" aria-label="abrir menu" aria-expanded="false" aria-controls="main-menu" data-hamburger="boton" >
+            <span class="hamburger-icon" data-hamburger="icono">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </button>
+        <nav id="main-menu" aria-labelledby="hamburger-btn" data-hamburger="menu">
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Servicios</a></li>
+                <li><a href="">Nosotros</a></li>
+                <li><a href="">Otros</a></li>
+            </ul>
+        </nav>
+        <div class="overlay"></div>
+    </header>
+    <!--   seccion de grid-->
+    <main>
+        <section class="grid-container ">  
+                <!--titulo-->          
+                <div class="item titulo">
+                    <h1>Social Media <span class="numero">10x</span> Faster with AI</h1>
+                    <img src="assets/images/illustration-five-stars.webp" 
+                    alt="estrellas">
+                    <p>Over 4000 5-star reviews</p>
+                </div>
+                <!--redes-->
+                <div class="item redes centrar-left">
+                    <img src="assets/images/illustration-multiple-platforms.webp" alt="redes">
+                    <h3>Manage multiple accounts and platforms.</h3>
+                </div>
+                <!--calendario-->
+                <div class="item calendario centrar-left">
+                    <h3>Maintain a consistent posting schedule.</h3>
+                    <img src="assets/images/illustration-consistent-schedule.webp" alt="calendario">
+                </div>
+                <!--grafica post-->
+                <div class="item grafica-post centrar">
+                    <h3>Schedule to social media.</h3>
+                    <img src="assets/images/illustration-schedule-posts.webp" alt="post">
+                    <p>Otimize post timings to publish content at the perfect time for your audience.</p>
+                </div>
+                <!--seguidores-->
+                <div class="item seguidores centrar">
+                    <img src="assets/images/illustration-grow-followers.webp" alt="seguidores">
+                    <h2>Grow followers with non-stop content.</h2>
+                </div>
+                <!--audiencia-->
+                <div class="item audiencia centrar-left">
+                    <h1>>56%</h1>
+                    <p>faster audience growth</p>
+                    <img src="assets/images/illustration-audience-growth.webp" alt="audiencia">
+                </div>
+                <!--crear post-->
+                <div class="item crear-post">
+                    <h2>Create and schedule content <span>quicker.</span></h2>
+                    <img src="assets/images/illustration-create-post.webp" alt="crear post">
+                </div>
+                <!--contenido-->
+                <div class="item contenido centrar-left">
+                    <h2>Write your content using AI.</h2>
+                    <img src="assets/images/illustration-ai-content.webp" alt="">
+                </div>                        
+        </section>
+    </main>
+    <script src="js/practica1.js"></script>
 </body>
 </html>
