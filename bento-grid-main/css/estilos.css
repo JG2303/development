@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    flex-direction: column;
+    font-family: "Noto Sans", sans-serif;
+    width: 100%;
+    min-height: 100vh;
+}
+:root{
+    font-size: 16px;
+    --p-size:1.3rem;
+    --h3-size:  1.7rem;
+    --espaciado: 1.25rem;
+    --h1-size:clamp(0.5rem, 5vw, 1.5rem);
+    --color-primario:hsl(0, 0%, 100%);
+    --color-secundario:hsl(0, 0%, 7%);
+    --colo-fondo-primario-morado: hsl(256, 67%, 59%);
+    --colo-fondo-secundario-morado: hsl(254, 88%, 90%);
+    --colo-fondo-primario-mostaza: hsl(39, 100%, 71%);
+    --colo-fondo-secundario-mostaza: hsl(31, 66%, 93%);
+}
+
+
+.centrar{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+div{
+    border-radius: 5px;
+}
+.margen{
+    padding: 1rem 2rem;
+}
+.col1{
+    order:2;
+}
+
+.uno{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--color-primario);
+    background: var(--colo-fondo-primario-morado);
+}
+.uno h1{
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 500;
+}
+.uno .diezx{
+    color: var(--colo-fondo-primario-mostaza);
+}
+.uno .cursivo{
+    font-style: italic;
+}
+.uno img{
+    padding-top: 20px;
+    width: 60%;
+}
+
+.dos{
+    background: blue;
+    background: var(--colo-fondo-secundario-mostaza);
+}
+.dos img{
+    width: 100%;
+}
+.dos h3{
+    font-size: var(--h3-size);
+}
+.tres{
+    background: var(--colo-fondo-primario-mostaza);
+    height: 14rem;
+    overflow: hidden;
+}
+.tres h3{
+ font-size: var(--h3-size);
+}
+.tres img{
+    padding-top: 10px;
+    width: 65%;
+
+}
+.cuatro{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:1rem 0.5rem;
+    background: var(--colo-fondo-secundario-morado);
+}
+.cuatro p{
+    padding: 1rem 1.3rem;
+    font-size: var(--p-size);
+}
+.cuatro h3{
+    padding: 1rem;
+    font-size: var(--h3-size);
+}
+.cuatro img{
+    width: 95%;
+}
+.cinco{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: var(--colo-fondo-primario-morado);
+    color: var(--color-primario);
+}
+.cinco img{
+    width: 65%;
+}
+.cinco h3{
+    font-size: var(--h3-size);
+    padding: 1rem 3rem;
+}
+.seis{
+    background: var(--color-primario);
+    order: 1;
+}
+.seis .porcentaje{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.seis img{
+    width: 50%;
+    padding: 1rem 0;
+}
+.siete{
+    background:var(--colo-fondo-secundario-mostaza);
+
+}
+.siete h3{
+    font-size: var(--h3-size);
+    padding: 1rem;
+}
+.siete span{
+    color: var(--colo-fondo-primario-morado);
+    font-style: italic;
+}
+.siete img{
+    width: 50%;
+    padding: 1rem ;
+}
+.ocho{
+    background: var(--colo-fondo-primario-mostaza)
+}
+.ocho h3{
+    font-size: var(--h3-size);
+    padding: 1rem 2rem 1rem 1rem;
+}
+
+.ocho img{
+    width: 65%;
+}
+
+/***********************TAMAÑO DE 1440***************************/
+@media(min-width: 1440px ){
+    img{
+        width: 100%;
+    }
+   
+    .centrar{
+        flex-direction: row;
+    }
+    body{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .col1{
+        flex-direction: column;       
+        gap:1.5rem;
+    }
+    .col2{
+        
+        order:2;
+        
+    }
+    .uno{
+        flex-direction: column;
+        height: 500px;
+        width: 740px;
+    }
+    .social-media-2{
+        gap:20px;
+    }
+    .dos{
+        height: 350px;
+        width: 350px;
+
+    }
+    .col1-interna-fi-1{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .col2{
+        gap: 20px;
+    }
+    .fila-interna-1{
+        gap: 20px;
+    }
+    .fila-interna-2{
+        gap: 20px;
+    }
+    .tres{
+        height: 350px;
+        width: 350px;
+    }
+    .cuatro{        
+        width: 350px;
+        flex-direction: column;
+        text-align: start;
+        align-items: start;
+        overflow: hidden;
+        padding-left: 30px;
+    }
+    .cuatro img{
+        width: 150%;
+    }
+
+    .seis{
+        order:2;
+        width: 350px;
+        height: 350px;
+        border: 1px solid red;
+    }
+    .cinco{
+        order:2;
+        height: 350px;
+        width: 760px;
+    }
+    .cinco img{
+        width: 40%;
+    }
+    .seis{
+        width: 350px ;
+    }
+    .siete{
+        height: 600px;
+        width: 350px;
+    }
+    .ocho{
+        width: 350px;
+        height: 600px;
+    }
+    
+
+}
