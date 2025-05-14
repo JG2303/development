@@ -1,0 +1,108 @@
+:root{
+    --color-primario: hsl(25, 97%, 53%);
+    --color-h1:hsl(0, 100%, 100%);
+    --color-p:hsl(213, 9%, 50%);
+    --color-fondo:hsl(216, 12%, 8%) ;
+    --color-fondo-estrella: hsl(213, 19%, 25%);
+    --color-tarjeta:hsl(213, 19%, 18%); 
+    /* ---------------------------------------- */
+    --font-weight-400: 400;
+    --font-weight-700: 700;
+}
+
+html{
+    font-family: "Overpass", sans-serif;
+    font-size: 15px;  
+    height: 100%;  
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;   
+    height: 100%;
+    background: var(--color-fondo);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    height: 100%;
+}
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-fondo-estrella);
+    width: fit-content;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 0;
+}
+main{
+    text-align: start;
+    width: 310px;
+    height: 300px;
+    background: var(--color-tarjeta);
+    border-radius: 20px; 
+    padding: 30px;   
+}
+main span{    
+    background: var(--color-fondo-estrella);
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: var(--color-primario);
+}
+main.enviado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+main h1{
+    color: var(--color-h1);
+}
+main p{
+    color: var(--color-p);
+}
+.btn{
+    margin: 0;
+    border: 0;
+    width: fit-content;
+    border-radius: 50%;
+    padding: 15px 20px;
+    color: var(--color-h1);
+    font-size: 17px;
+    background: var(--color-fondo-estrella);
+    transition: background 0.3s ease, color 0.3s ease;
+}
+.btn:hover{
+    background: var(--color-h1);
+    color: var(--color-tarjeta);
+}
+.btn.selected{
+    background: var(--color-primario);
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.btn-enviar{
+    width: 100%;
+    border-radius: 50px;
+    border: 0;
+    padding: 10px ;
+    font-size: 14px;
+    background: var(--color-primario);
+    font-weight: var(--font-weight-700);
+    transition: background 0.3s ease;
+}
+.btn-enviar:hover{
+    background: var(--color-h1);
+}
+
