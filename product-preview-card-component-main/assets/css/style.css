@@ -118,8 +118,7 @@ footer{
         flex-direction: row;
         justify-content: center;        
         width: 40%; 
-    }
-    
+    }    
     main picture{
         width: 50%;
     }
@@ -128,7 +127,23 @@ footer{
         width: 50%;
     }
     .contenido, .comprar{
-    padding: 0 30px 20px;    
+    padding: 20px 30px 0;    
+    }
+    .contenido .perfume{
+        margin-top: 0;
+        font-size: 0.6rem;
+    }
+    .contenido>h1{
+        font-size: 2rem
+    }
+    .contenido p{
+        font-size: 0.8rem;
+    }
+    .precios .actual{
+        font-size: 2rem;
+    }
+    .precios .real{
+        font-size: 0.8rem;
     }
     .btn-comprar button:hover{
     background: var(--color-primario-dark);
