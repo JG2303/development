@@ -1,0 +1,138 @@
+:root{
+    --color-primario:hsl(158, 36%, 37%);
+    --color-primario-dark:hsl(158, 42%, 18%);
+    --color-negro:hsl(212, 21%, 14%);
+    --color-gris:hsl(228, 12%, 48%);
+    --color-crema:hsl(30, 38%, 92%);
+    --color-blanco:hsl(0, 0%, 100%);
+
+    --font-secundaria: "fraunces", sans-serif;
+    
+}
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+}
+html{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-crema);
+    padding: 20px;
+    height: 100%;
+}
+.contenedor{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background: var(--color-blanco);
+    border-radius: 1rem;
+    overflow: hidden;
+    
+}
+main img{
+    width: 100%;
+    
+}
+
+.contenido .perfume{
+    letter-spacing: 0.4rem;    
+    margin: 0 0 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 20px;
+    color: var(--color-gris);
+}
+.contenido>h1{
+    font-family: var(--font-secundaria);
+    font-size: 2.3rem;
+    line-height: 1;
+    margin-top: 20px;
+    color: var(--color-negro);
+}
+.contenido p{
+    line-height: 1.5;
+    font-size: 1rem;
+    margin: 20px 0 0;
+    color: var(--color-gris);
+}
+
+.contenido, .comprar{
+    padding: 0 20px 20px;
+}
+.comprar .precios{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    font-family: var(--font-secundaria);
+    margin: 0 0 20px;
+}
+.precios .actual{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--color-primario);
+}
+.precios .real{
+    text-decoration: line-through;
+    color: var(--color-gris);
+}
+.btn-comprar button img{
+    width: 10%;
+}
+.btn-comprar button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background: var(--color-primario);
+    color: var(--color-blanco);
+    transition: background 0.2s ease;
+}
+
+
+footer{
+    padding: 10px;
+}
+
+@media(min-width:1200px){
+    main{
+        flex-direction: row;
+        justify-content: center;        
+        width: 40%;  
+        height: 50%;      
+    }
+    
+    main picture{
+        width: 50%;
+    }
+
+    main>article{
+        width: 50%;
+    }
+    .contenido, .comprar{
+    padding: 0 30px 20px;    
+    }
+    .btn-comprar button:hover{
+    background: var(--color-primario-dark);
+    }
+   
+}
