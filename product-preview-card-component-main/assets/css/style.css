@@ -25,7 +25,7 @@ body{
     justify-content: center;
     align-items: center;
     background: var(--color-crema);
-    padding: 20px;
+    padding: 20px; 
     height: 100%;
 }
 .contenedor{
@@ -117,8 +117,7 @@ footer{
     main{
         flex-direction: row;
         justify-content: center;        
-        width: 40%;  
-        height: 50%;      
+        width: 40%; 
     }
     
     main picture{
