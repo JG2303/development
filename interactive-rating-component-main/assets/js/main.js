@@ -12,19 +12,21 @@ document.addEventListener('DOMContentLoaded', function(){
     });
 
     btnEnviar.addEventListener('click', ()=>{
-        main.classList.add('enviado');
-        main.innerHTML = `
-            <figure>
-                <img src="assets/images/illustration-thank-you.svg" alt="icono de estrella">
-            </figure>
-            <section class="item-selected">
-                <span>You selected ${seleccion} out of 5</span>
-            </section>
-            <article class="content">
-                <h1>Thank you!</h1>
-                <p> We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>            
-            </article>
-        `
+        if(seleccion){
+            main.classList.add('enviado');
+            main.innerHTML = `
+                <figure>
+                    <img src="assets/images/illustration-thank-you.svg" alt="icono de estrella">
+                </figure>
+                <section class="item-selected">
+                    <span>You selected ${seleccion} out of 5</span>
+                </section>
+                <article class="content">
+                    <h1>Thank you!</h1>
+                    <p> We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>            
+                </article>
+            `
+        }
     });
     
 
