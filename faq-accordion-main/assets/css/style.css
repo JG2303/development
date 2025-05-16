@@ -31,6 +31,7 @@ body{
     flex:1;       
     background-image: url('../images/background-pattern-mobile.svg');
     background-repeat: no-repeat;
+    background-size: contain;
     padding: 1.5rem;
     width: min(100%, 1440px);
 }
