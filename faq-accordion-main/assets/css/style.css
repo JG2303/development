@@ -1,0 +1,115 @@
+:root{
+    --color-white:hsl(0,100%, 100%);
+    --color-principal:hsl(275, 100%, 97%);
+    --color-fondo:hsl(292, 16%, 49%);
+    --color-secundario:hsl(292, 42%, 14%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Work Sans", sans-serif;    
+    font-size: 16px;    
+}
+body{
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background: var(--color-principal);
+}
+
+.contenedor{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:1;       
+    background-image: url('../images/background-pattern-mobile.svg');
+    background-repeat: no-repeat;
+    padding: 1.5rem;
+    width: min(100%, 1440px);
+}
+main{
+    padding: 20px;  
+    display: flex;
+    flex-direction: column;
+    background: var(--color-white);
+    border-radius: 0.5rem;
+}
+hr{
+    background-color: var(--color-principal);
+    border: none;
+    height: 1px;
+}
+.titulo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+.titulo img{
+    width: 25px;
+}
+.titulo h1{
+    font-size: 2rem;
+    color: var(--color-secundario);
+    font-weight: 800;
+}
+.acordion{
+    width: 100%;
+    max-width: 600px;
+}
+.acordion-item{
+    margin-bottom: 8px;
+    border:1px solid #ddd;
+    overflow: hidden;
+}
+.content-acordion-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn-acordion-header{
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 1.1rem;
+    color: var(--color-secundario);
+    font-weight: 600;
+    padding: 15px 0;
+}
+.btn-acordion-header:hover{
+    color: hsl(293, 71%, 49%);
+}
+.acordion-content{    
+    max-height: 0;
+    overflow: hidden;  
+     
+}
+.acordion-content.active{
+    padding: 20px 0;
+    max-height: 500px;
+    font-size: 0.87rem;
+    color: var(--color-fondo);
+    line-height: 1.5;    
+}
+
+footer{
+    padding: 10px;
+}
+
+@media (min-width:780px){    
+    .contenedor{
+        background-image: url('../images/background-pattern-desktop.svg');
+    }
+}
