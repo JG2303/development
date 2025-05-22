@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', function(){
     const links = document.querySelectorAll('#main-menu a');
     const tema = document.querySelector('.tema');
     const body = document.body;
+    const boton2 = document.querySelector('.boton2');
+    const contenido = document.querySelector('.contenido')
     boton.addEventListener('click', function(){
         const isExpanded = this.getAttribute('aria-expanded')==="true";
         this.setAttribute('aria-expanded', !isExpanded);
@@ -34,5 +36,10 @@ document.addEventListener('DOMContentLoaded', function(){
             tema.textContent="🌤️";
             tema.style.background="#f5f5f5"
         }
+    });
+
+    boton2.addEventListener('click', function(){
+        contenido.classList.add('active');
+        this.style.opacity= 0;
     });
 });
