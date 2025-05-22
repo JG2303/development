@@ -28,9 +28,11 @@ document.addEventListener('DOMContentLoaded', function(){
         if(body.getAttribute("data-theme")==="dark"){
             body.removeAttribute("data-theme");
             tema.textContent = "🌛"
+            tema.style.background="#666"
         }else{
             body.setAttribute("data-theme", "dark")
             tema.textContent="🌤️";
+            tema.style.background="#f5f5f5"
         }
     });
 });

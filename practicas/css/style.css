@@ -19,21 +19,35 @@ body{
     min-height: 100vh;
     background-color: var(--bg-color);
     color: var(--text-color);
-    transition: background-color 0,3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: "Overpass", sans-serif;
 }
 header{    
+    position: sticky;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: var(--bg-color);
+}
+main{
+    padding: 30px 20px;
+}
+.logo{
+    color: red;
+    font-size: 25px;
+    text-shadow: 5px 1px 5px #333;
 }
 .tema{
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    width: 30px;
+    width: fit-content;
     border: none;
-    border-radius: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 3px;
 }
 .tema:hover{
     box-shadow: 0 0 5px #6200ee;    
@@ -46,7 +60,7 @@ header{
     align-items: center;
     gap: 10px;
 }
-footer{
+.footer{
     margin: auto;
     padding: 20px;
 }
