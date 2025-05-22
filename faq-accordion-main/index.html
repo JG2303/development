@@ -21,17 +21,17 @@
 <body>
   <div class="contenedor">    
     <main>
-      <section class="acordion">
+      <section class="acordion" aria-label="Preguntas frecuentes">
         <div class="titulo">
           <img src="assets/images/icon-star.svg" alt="icono titulo">
           <h1>FAQs</h1>       
         </div>          
-        <section class="item-acordion">
+        <section class="item-acordion" aria-labelledby="heading1" >
           <div class="content-acordion-header">
-            <button class="btn-acordion-header" aria-expanded="false" >What is Frontend Mentor, and how will it help me?</button>
-            <img src="assets/images/icon-plus.svg" alt="Icono de estado">
+            <button class="btn-acordion-header" aria-expanded="false" aria-controls="content1">What is Frontend Mentor, and how will it help me?</button>
+            <img src="assets/images/icon-plus.svg" alt="Icono de estado" aria-hidden="true" data-icon="content1">
           </div>
-          <div class="acordion-content">
+          <div id="content1" class="acordion-content" aria-labelledby="heading1">
             <p>Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.</p>
           </div>
         </section>

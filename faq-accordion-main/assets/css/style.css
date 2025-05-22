@@ -29,11 +29,11 @@ body{
     justify-content: center;
     align-items: center;
     flex:1;       
+    width: min(100%, 1440px);
+    padding: 1.5rem;
     background-image: url('../images/background-pattern-mobile.svg');
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 1.5rem;
-    width: min(100%, 1440px);
 }
 main{
     padding: 20px;  
@@ -112,5 +112,9 @@ footer{
 @media (min-width:780px){    
     .contenedor{
         background-image: url('../images/background-pattern-desktop.svg');
+    }
+    main{
+        padding: 20px 50px;
+        width: 40%;
     }
 }

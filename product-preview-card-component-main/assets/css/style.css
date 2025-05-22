@@ -26,7 +26,7 @@ body{
     align-items: center;
     background: var(--color-crema);
     padding: 20px; 
-    height: 100%;
+    min-height: 100vh;
 }
 .contenedor{
     display: flex;    
