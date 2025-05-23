@@ -38,8 +38,11 @@ document.addEventListener('DOMContentLoaded', function(){
         }
     });
 
-    boton2.addEventListener('click', function(){
-        contenido.classList.add('active');
-        this.style.opacity= 0;
+    boton2.addEventListener('click', function(){     
+        this.style.opacity = 0;   
+        contenido.innerHTML = `            
+                ❤️💕Eres mi negrita peshosha ❤️💕
+                <img class="pulsar" src="https://purepng.com/public/uploads/large/heart-4xd.png" alt="">
+       `;
     });
 });
